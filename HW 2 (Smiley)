@@ -1,0 +1,32 @@
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+function mousePressed() {
+  print("("+mouseX+","+mouseY+")");
+}
+function draw() { 
+ 
+
+  var ellipseH = 140;
+  var ellipseW = 140;
+  var ellipseX = mouseX;
+  var ellipseY = mouseY;
+  
+ellipse(ellipseX, ellipseY, ellipseW, ellipseH);
+
+
+	var eyeH =15,
+			eyeW =15,
+			eyeX =mouseX-25,
+			eyeY =mouseY-20;
+ellipse(eyeX,eyeY,eyeW,eyeH);
+
+	var eye2H =15,
+			eye2W =15,
+			eye2X =mouseX+25,
+			eye2Y =mouseY-20;
+ellipse(eye2X,eye2Y,eye2W,eye2H);
+
+arc(mouseX,mouseY+10, 80, 80, 0, PI, OPEN);
+}
