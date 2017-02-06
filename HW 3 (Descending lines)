@@ -1,0 +1,13 @@
+ 
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+function draw() {   
+var y = 1;
+
+for (x=10; x < width; x=x+5) {
+  		y= y+20;
+    	line (x,0,x,y);
+  }
+}
