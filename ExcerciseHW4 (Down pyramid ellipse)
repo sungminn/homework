@@ -1,0 +1,16 @@
+function setup() { 
+  createCanvas(400, 400);
+ 
+  background(0);
+  colorMode(HSB);
+	fill (255); 
+  noStroke(); 
+
+
+
+for (var y = 20; y <=200; y=y+20){
+  for (var x = y; x <= 400-y; x=x+20) {
+    ellipse (x,y,18,18);
+  }
+}
+}
