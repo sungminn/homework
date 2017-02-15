@@ -1,0 +1,26 @@
+function setup() { 
+  createCanvas(400, 400);
+	background(0);
+
+} 
+
+
+var x = 10;
+function draw() { 
+
+fr = 5;
+      frameRate(fr); 
+strokeWeight (2);
+  
+if (x < 400) {
+  stroke(1);
+  line (x,400,x,0)
+  stroke(255);
+  line(x,400,x,random(400))
+  x += 10;
+}else{
+  x=10;
+}
+
+
+}
