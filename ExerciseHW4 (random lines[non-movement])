@@ -1,0 +1,17 @@
+function setup() { 
+  createCanvas(400, 400);
+
+strokeWeight (2);
+  
+var i = 0
+var z = random(0,400)
+  
+for (i = 0; i<400; i+=5){
+  line(i,random(0,400),i,400);
+}
+
+}
+function draw() { 
+
+
+}
