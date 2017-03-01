@@ -1,0 +1,21 @@
+var sizes = [10, 30, 40, 20, 110, 78, 70, 60];
+
+		
+function setup() {
+  createCanvas(800, 600);
+	
+  colorMode(HSB);
+  noStroke();
+	var h = random(0, 360);
+
+    }
+
+function draw() {
+  	background(0);
+    for (var i = 0; i < sizes.length; i += 0.5) {
+    fill(30,100,100);
+    
+    ellipse(i*100+20, random(200,205), sizes[i], sizes[i]);
+ 
+    }
+}
