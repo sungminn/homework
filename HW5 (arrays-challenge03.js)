@@ -14,18 +14,19 @@ function draw() {
 
 for (var i = 0; i < shade.length; i += 1) {
 	var c = shade[i] + h;
-	fill(c,100,100);
-  rect([i]*width/shade.length, 0, width/shade.length, height);
   
-	if (c > 360)
+  if (c >360) 
   {
     c-=360
   }
+	fill(c,100,100);
+  rect([i]*width/shade.length, 0, width/shade.length, height);
+  
 }
  h= h+1;
   if (h > 360) 
   {
-  	h-=360  
+  	h-=360
   }
   
 }
