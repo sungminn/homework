@@ -1,0 +1,32 @@
+
+var shade=[10,20,30,40,50,60,70,80,90];
+
+function setup() {
+
+  createCanvas(400, 400);
+  
+}
+
+var h = 0;
+function draw() {
+  colorMode(HSB);
+  noStroke();
+
+for (var i = 0; i < shade.length; i += 1) {
+	var c = shade[i] + h;
+	fill(c,100,100);
+  rect([i]*width/shade.length, 0, width/shade.length, height);
+  
+	if (c > 360)
+  {
+    c-=360
+  }
+}
+ h= h+1;
+  if (h > 360) 
+  {
+  	h-=360  
+  }
+  
+}
+
