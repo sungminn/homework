@@ -1,0 +1,15 @@
+var sizes = [40, 70, 90, 30, 60, 80];
+var size2 = [70, 20, 80, 60, 30, 50];
+
+function setup() {
+  createCanvas(600, 600);
+background(225);
+  noStroke();
+
+  for (var i = 0; i < sizes.length; i += 1) {
+    fill(sizes[i]);
+    
+    ellipse(50+i*100, height/2, sizes[i], sizes[i]);
+  	ellipse (80+i*90, 100, size2[i], size2[i]);
+    }
+    }
