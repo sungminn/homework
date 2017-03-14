@@ -1,0 +1,13 @@
+Question #1
+
+1. Why can you only use certain pins for analogWrite()?
+- You can only use certain pins for analogWrite() because you can only analogWrite() to one of the conflicting pins.
+If analogWrite() is used with two different pins at the same the,the value of the PWM signal
+would be equal to each other even though the values were written differently.
+
+Question #2
+
+2. What is the range the map() function maps the value to? Why this range?
+- The range of the map function maps the value to not constraint values within the range 
+because sometimes out-of-range values are intended and useful.The map function also uses integers 
+math which does not generate fractions when the math might indicate that it should do so.
