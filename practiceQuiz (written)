@@ -1,0 +1,34 @@
+Practice Quiz SCIMA
+
+1. Give an example, in your own words, when you might use an if statement in P5 (or Arduino)
+
+- Use the IF function to specify a block of code to be executed only if a specified condition is true
+- Then use ELSE to specify a block of code to be executed if the same condition is false
+
+
+2. Describe, in your own words, the role of the condition of a while or for loop.
+
+- The WHILE function loops through a block of code as long as the specified condition is true
+- FOR Loops allow you to run through the loop when you know how many times you'd like it to run through the problem such as for (var i; i < 10; i++); this will continually increase i untill that condition returns false, any number can replace the 10 even a variable. but it will quit once the condition is no longer being met. This is best used again for loops that you know how when they should stop.
+- Key difference between WHILE and FOR loops are the organization systems.It’s easy to think that FOR statements are cleaner version of the WHILE loop.
+
+3. In the following code, what is printed for the final value of the variable z, after all the code runs?
+
+var z = 0;
+while (z < 19) {
+z = z + 6;
+}
+println(z);
+
+- First of all, println() is a method in PrintStream class to print all data values. As of how the function is while “z” is less than 19, z = z + 6. then “z” would have to be 12 in order to be less then 19 which if “z” is 12, it will be 12+6 =18; 18 < 19. Therefore, 12 would be the final value for “z” after all code runs. 
+
+
+Arduino & Electronics
+7. Match the following inputs and outputs to the best command to interact with each
+
+- Control the brightness of an LED = analogWrite
+- Turn on or off an LED = digitalWrite 
+- Read a value from a light-dependent resistor = analogRead
+- Determine if an input is HIGH or LOW = digitalRead 
+
+
