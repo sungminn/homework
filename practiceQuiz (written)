@@ -20,8 +20,14 @@ z = z + 6;
 }
 println(z);
 
-- First of all, println() is a method in PrintStream class to print all data values. As of how the function is while “z” is less than 19, z = z + 6. then “z” would have to be 12 in order to be less then 19 which if “z” is 12, it will be 12+6 =18; 18 < 19. Therefore, 12 would be the final value for “z” after all code runs. 
+- First of all, println() is a method in PrintStream class to print all data values. As of how the function is while “z” is less than 19, z = z + 6. then “z” would have to be 18 in order to be less then 19 which if “z” is 18, it will be 18+6 =24; 24 < 19. Therefore, 18 would be the final value for “z” after all code runs. 
 
+4. On paper
+
+5. On paper
+
+6. a)until i is 5 it will run so 5 times. 
+   b)99 times. b/c i is less then numPoints. numPoint = 100 so for the for function as TRUE, it will only go up to 99 and change into FALSE when the amount hits 100.
 
 Arduino & Electronics
 7. Match the following inputs and outputs to the best command to interact with each
@@ -31,4 +37,18 @@ Arduino & Electronics
 - Read a value from a light-dependent resistor = analogRead
 - Determine if an input is HIGH or LOW = digitalRead 
 
+8. void setup () {
+	pinMode(3,OUTPUT);
+}
 
+void loop() {
+digitalWrite(3,HIGH)
+delay(100)
+digitalWrite(3,LOW)
+delay(100)
+}
+
+- if you want it to blink on 200, you have to split that (so 100) in order it to “BLINK” 5 times in 1 second.
+- a single blink requires a set of delay in order to blink 
+
+9. On paper
